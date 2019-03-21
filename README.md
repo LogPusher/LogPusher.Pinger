@@ -34,14 +34,23 @@ Please check the installation directory during the installation or uninstallatio
 You must edit the following two files for your LogPusher enterprise settings. /Properties/Settings.settings  and Profect.LogPusher.PingerWinService.exe.config
 
 LogPusherAppKey : You can find LogPusher Api panel .
+
 LogPusherUserName : Your LogPusher username also email.
+
 LogPusherPassword : Your LogPusher Password ( MD5 )
+
 RetryCount : How many times would you try if you don't get HTTP Status 200 during the experiment.
+
 MessageFormat : Specifies the content of the message to be sent by LogPusher. You can arrange by yourself. We recommend that you stick to the sample formatting.
+
 CallbackTime : As soon as possible, a re-check
+
 LogPusherAppName  : You can find LogPusher Api panel .
+
 IpList : semicolon-separated web site addresses
+
 Culture :  Culture must be en-GB or en-EN. If you dont know your server wich one support please open PowerShell , write get-Culture and hit enter. 
+
 
 <applicationSettings>
         <Profect.LogPusher.PingerWinService.Properties.Settings>
