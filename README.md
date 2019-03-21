@@ -51,6 +51,7 @@ IpList : semicolon-separated web site addresses
 
 Culture :  Culture must be en-GB or en-EN. If you dont know your server wich one support please open PowerShell , write get-Culture and hit enter. 
 
+``` XML
 
 <applicationSettings>
         <Profect.LogPusher.PingerWinService.Properties.Settings>
@@ -84,7 +85,7 @@ Culture :  Culture must be en-GB or en-EN. If you dont know your server wich one
         </Profect.LogPusher.PingerWinService.Properties.Settings>
     </applicationSettings>
 
-
+```
 
 
 ## Support
