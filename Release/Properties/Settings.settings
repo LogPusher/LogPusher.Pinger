@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Profect.LogPusher.PingerWinService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogPusherAppKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">APPLICATION KEY</Value>
+    </Setting>
+    <Setting Name="LogPusherUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">USER EMAIL</Value>
+    </Setting>
+    <Setting Name="LogPusherPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PASSWORD</Value>
+    </Setting>
+    <Setting Name="RetryCount" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="MessageFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0} kere deneme yapılmasına rağmen belirtine Web Sitesine  [{1}] erişilemedi. Lütfen Kontrol Sağlayınız...</Value>
+    </Setting>
+    <Setting Name="CallbackTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="LogPusherAppName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Log Pusher App Name</Value>
+    </Setting>
+    <Setting Name="IpList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://abc.com;https://bcd.com</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">en-GB</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
